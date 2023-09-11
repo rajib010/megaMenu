@@ -1,6 +1,12 @@
 'use strict';
 
-const menuIcon= document.querySelector("#menuIcon");
-menuIcon.addEventListener("click",function(){
-    console.log("hi there");
-})
+document.getElementById('menuIcon').addEventListener('click', function() {
+    var navLinks = document.querySelector('.nav-links');
+    if (navLinks.style.display === 'none') {
+        navLinks.style.display = 'block';
+    } else {
+        navLinks.style.display = 'none';
+    }
+});
+
+document.get
