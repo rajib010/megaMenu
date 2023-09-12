@@ -8,11 +8,19 @@ nav {
     background-color: black;
     height: 4.5vw;
     width: 100%;
+    
 }
+
+ 
 
 nav .wrapper {
     display: flex;
     justify-content: space-between;
+    
+    width:90%;
+    margin: auto;
+
+     
 }
 
 .logo {
@@ -41,6 +49,7 @@ nav .wrapper {
     list-style: none;
     display: flex;
     padding-right: 3vw;
+    
     justify-content: space-between;
     display: block;
 }
@@ -144,9 +153,9 @@ ul {
 
 /* responsive codes for mobiles  */
 @media (max-width: 728px) {
+   
     nav {
-        height: 12vw;
-        position: absolute;
+        height: 12vw; 
     }
 
     .logo a {
@@ -156,13 +165,18 @@ ul {
     }
 
     .nav-links {
-        width: 100%;
-        display: none;
-        position: absolute;
+        position: absolute; 
+        left:0px;
+        width: 100%; 
+        flex-direction: column;
         background-color: #242526;
         top: 12vw;
         line-height: 3vw;
         text-align: center;
+        display: none;
+    }
+    .showitem{
+        display: block;
     }
 
     .nav-links li {

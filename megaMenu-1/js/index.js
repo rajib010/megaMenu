@@ -1,12 +1,14 @@
 'use strict';
 
+var navLinks = document.querySelector('.nav-links');
 document.getElementById('menuIcon').addEventListener('click', function() {
-    var navLinks = document.querySelector('.nav-links');
-    if (navLinks.style.display === 'none') {
-        navLinks.style.display = 'block';
-    } else {
-        navLinks.style.display = 'none';
-    }
+     
+    navLinks.classList.toggle("showitem");
+    
+     
+    
+     
+    
 });
 
-document.get
+ 
