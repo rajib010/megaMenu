@@ -37,10 +37,17 @@ nav .wrapper {
     padding: 0vw 3vw;
 }
 
-.icon i {
+i {
     color: white;
     line-height: 4.5vw;
     font-size: 2vw;
+}
+.icon1{
+    display: none;
+}
+
+
+.icon2 {
     display: none;
 }
 
@@ -196,11 +203,19 @@ ul {
         top: 24.55vw;
     }
 
-    .icon i {
-        display: block;
+    
+    i {
         font-size: 6vw;
-        line-height: 12vw;
         padding-right: 7vw;
+    }
+    .icon1{
+        display: block;
+        line-height: 12vw;
+
+    }
+
+    .icon2{
+        line-height: 12vw;
     }
 
     .mega-box {
